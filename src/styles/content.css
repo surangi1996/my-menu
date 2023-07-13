@@ -1,0 +1,28 @@
+.content {
+    padding: 4em;
+}
+
+.content .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 5em;
+}
+
+.content .main .description {
+    margin-right: 20vh;
+}
+
+.text-main {
+    font-size: 10vh;
+}
+
+.text-main-1 {
+    font-size: 5vh;
+    font-weight: lighter;
+}
+
+.main .image-main .img {
+    width: 4em;
+    height: 4em;
+}
