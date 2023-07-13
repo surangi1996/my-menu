@@ -42,7 +42,7 @@ export default function SignUp() {
                             I agree to all terms, privacy and policy
                         </Checkbox>
 
-                        <button className='btn signup form-footer-margin' onClick={() => navigate('landing')}>Sign Up</button>
+                        <button className='btn signup form-footer-margin' onClick={() => navigate('/')}>Sign Up</button>
 
                         <h5>Already have an account <a href="/">Sign In</a></h5>
                         <Divider className="form-footer-margin" plain>Or</Divider>

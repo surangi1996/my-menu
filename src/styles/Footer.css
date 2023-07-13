@@ -1,0 +1,45 @@
+.footers {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 10vw;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding-right: 15em;
+}
+
+.food-shop {
+    margin-bottom: 2em;
+}
+
+.footer-left .food-shop h3 {
+    color: white;
+    font-size: 2em;
+}
+
+.footer-left .food-shop p{
+    color: white;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.footers .footer-right h3 {
+    color: white;
+    margin-bottom: 3em;
+}
+.footers .footer-right p {
+    color: white;
+    margin-bottom: 3em;
+}

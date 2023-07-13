@@ -6,11 +6,16 @@ import HeaderPage from './Header';
 const { Header, Footer, Content } = Layout;
 
 export default function LandingPage() {
-    return(
-        <Layout>
-      <HeaderPage/>
-      <ContentPage/>
-      <FooterPage/>
-    </Layout>
-    );
+  return (
+    <>
+      <div style={{ marginLeft: 3 + 'em', marginRight: 3 + 'em' }}>
+        <Layout >
+          <HeaderPage />
+          <ContentPage />
+
+        </Layout>
+      </div>
+        <FooterPage />
+    </>
+  );
 }

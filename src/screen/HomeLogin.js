@@ -1,4 +1,5 @@
 import Login from "./Login";
+import '../styles/HomeLogin.css'
 
 function HomeLogin() {
     return (

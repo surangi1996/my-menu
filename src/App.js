@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import HomeLogin from './screen/HomeLogin';
 import HomeSignup from './screen/HomeSignup';

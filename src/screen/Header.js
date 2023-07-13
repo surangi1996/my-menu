@@ -8,7 +8,7 @@ const { Header } = Layout;
 export default function HeaderPage() {
     return (
         <div>
-            <Header className='header' style={{ backgroundColor: 'transparent' }}>
+            <Header className='header'>
                 <div className="demo-logo">
                     <img src={logoImg} alt="" />
                 </div>
@@ -19,7 +19,7 @@ export default function HeaderPage() {
                     <Button type="text">ABOUT</Button>
                     <Button type="text">CONTACT</Button>
                     <Button type="primary" style={{ backgroundColor: 'black' }} icon={<UserOutlined />}>EN-US <DownOutlined /></Button>
-                    <Button type="primary" style={{ backgroundColor: 'black' }} shape="circle" icon={<UserOutlined />} size={'middle'} />
+                    <Button type="primary" style={{ backgroundColor: 'black'}} shape="circle" icon={<UserOutlined />} />
                 </div>
 
             </Header>
